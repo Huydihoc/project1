@@ -17,6 +17,7 @@
         document.documentElement.scrollTop = 0;
       }
       </script>
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
       <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Pacifico" />
 </head>
 <body> 
@@ -25,7 +26,7 @@
         <ul>
             <li class="Menus"><a href="index.html"><button><i class="fa fa-bars" aria-hidden="true"></i></button></a></li>
             <li><input type="text" placeholder="Tìm..."><i class="fa-solid fa-magnifying-glass"></i></li>
-            <li id="adress-form"><a href="#">Địa Điểm</a></li> 
+            <li id="adress-form"><a href="#">Địa Điểm</a> </li> 
             <div class="adress-form">
               <div class="adress-form-content" >
                 <h2>Chọn điểm tham quan <span id="adress-close">X Đóng</span></h2>
@@ -46,7 +47,8 @@
                 </form>
               </div>
             </div>
-            <li><a href="page9.html">Chill</a></li>
+         
+            <li><a href="Video.html">Chill</a></li>
             <li><a href="#" title="Tính năng đang trong quá trình phát triển">Đặt Chỗ</a></li>
             <li><a href="#">Language</a></li>
             <li><a href="#">Đăng Nhập</a></li>
@@ -59,14 +61,70 @@
     <h2 style="font-family: 'Pacifico';font-size: 24px; text-align: center;">Xin chào. Cơn gió nào đã đưa bạn đến đây</h2>
     <p></p>
   <section class="container">
-     <div class="custom-div "><img src="images/bắctrungbo.jpg" alt="Bắc Trung Bộ"><p class="image-caption"><a href="page1.html" target="_blank">Bắc Trung Bộ</a></p></div>
-     <div class="custom-div "><img src="images/tây bắc.jpg" alt="Tây Bắc"><a href="webCon/TayBacBo.html" target="_blank">Tây Bắc</a></img></div>
-     <div class="custom-div "><img src="images/đông bắc.jpg" alt="Đông Bắc"><a href="webCon/DongBacBo.html"target="_blank">Đông Bắc Bộ</a></div> 
-     <div class="custom-div "><img src="images/ĐBS hồng.jpg" alt="Đồng Bằng Sông Hồng"><a href="webCon/DBSH.html"target="_blank">Đồng Bằng Sông Hồng</a></div>
-     <div class="custom-div "><img src="images/namtrungbo.jpg" alt="Nam Trung Bộ"><a href="webCon/NamTrungBo.html"target="_blank">Nam Trung Bộ</a></div>
-     <div class="custom-div "><img src="images/tâynguyen.jpg" alt="Tây Nguyên"><a href="webCon/TayNguyen.html" target="_blank">Tây Nguyên</a></div>
-     <div class="custom-div "><img src="images/đôngnambo.jpg" alt="Đông Nam Bộ"><a href="webCon/DongNamBo.html" target="_blank">Đông Nam Bộ</a></div>
-     <div class="custom-div "><img src="images/đồng bằng sông cửu long.jpg" alt="Đồng Bằng Sông Cửu Long"><a href="webCon/DBSCL.html" target="_blank">Đồng Bằng Sông Cửu Long</a></div>
+     <div class="custom-div ">
+      <a href="BacTrungBo.html" target="_blank">
+        <img src="images/bắctrungbo.jpg" alt="Bắc Trung Bộ"></img>
+        <div class="caption">
+          <p>Bắc Trung Bộ</p>
+        </div>
+      </a>
+      </div>
+     <div class="custom-div ">
+      <a href="TayBac.html" target="_blank">
+        <img src="images/tây bắc.jpg" alt="Tây Bắc"></img>
+          <div class="caption">
+            <p>Tây Bắc Bộ</p>
+          </div>
+      </a>    
+     </div>
+     <div class="custom-div ">
+      <a href="DongBacBo.html" target="_blank">
+        <img src="images/đông bắc.jpg" alt="Đông Bắc Bộ"></img>
+          <div class="caption">
+            <p> Đông Bắc Bộ</p>
+          </div>
+      </a>    
+     </div>
+     <div class="custom-div ">
+      <a href="DBSH.html" target="_blank">
+        <img src="images/ĐBS hồng.jpg" alt="Đồng Bằng Sông Hồng"></img>
+          <div class="caption">
+            <p> Đồng Bằng Sông Hồng</p>
+          </div>
+      </a>    
+     </div>
+     <div class="custom-div ">
+      <a href="Nam Trung Bộ" target="_blank">
+        <img src="images/namtrungbo.jpg" alt="Nam Trung Bộ"></img>
+          <div class="caption">
+            <p> Nam Trung Bộ</p>
+          </div>
+      </a>    
+     </div>
+     <div class="custom-div ">
+      <a href="TayNguyen.html" target="_blank">
+        <img src="images/tâynguyen.jpg" alt="Tây Nguyên"></img>
+          <div class="caption">
+            <p> Tây Nguyên</p>
+          </div>
+      </a>    
+     </div>
+     <div class="custom-div ">
+      <a href="DongNamBo.html" target="_blank">
+        <img src="images/đôngnambo.jpg" alt="Đông Nam Bộ"></img>
+          <div class="caption">
+            <p> Đông Nam Bộ</p>
+          </div>
+      </a>    
+     </div>
+     <div class="custom-div ">
+      <a href="DBSCL.html" target="_blank">
+        <img src="images/tây bắc.jpg" alt="Đồng Bằng Sông Cửu Long"></img>
+          <div class="caption">
+            <p> Đồng Bằng Sông Cửu Long</p>
+          </div>
+      </a>    
+      </div>
   </section>
 
 

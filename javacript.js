@@ -8,3 +8,4 @@ adressbtn.addEventListener("click",function(){
 adressclose.addEventListener("click",function(){
     document.querySelector('.adress-form').style.display="none"
 })
+/*---------------------------------------------------*/
